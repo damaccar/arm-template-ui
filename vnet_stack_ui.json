@@ -89,10 +89,10 @@
           {
             "name": "availabilityZones",
             "type": "Microsoft.Common.DropDown",
-            "label": "Availability zones",
+            "label": "AKS cluster availability zones",
             "multiselect": true,
             "defaultValue": ["Zone 1", "Zone 2", "Zone 3"],
-            "toolTip": "Availability zones used by the AKS cluster and its node pools.",
+            "toolTip": "Availability zones used by the AKS cluster and its node pools. These zones do not apply to the networking resources created by this template.",
             "constraints": {
               "required": true,
               "allowedValues": [
