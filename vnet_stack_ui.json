@@ -92,7 +92,7 @@
             "label": "AKS cluster availability zones",
             "multiselect": true,
             "defaultValue": ["Zone 1", "Zone 2", "Zone 3"],
-            "toolTip": "Availability zones used by the AKS cluster and its node pools. These zones do not apply to the networking resources created by this template.",
+            "toolTip": "Availability zones used by the AKS cluster and its node pools. Zonal networking resources in this template (public IPs, Azure Firewall) always span zones 1, 2 and 3 and are not affected by this selection.",
             "constraints": {
               "required": true,
               "allowedValues": [
